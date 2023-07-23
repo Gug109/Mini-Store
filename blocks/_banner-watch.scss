@@ -1,0 +1,36 @@
+.section-banner {
+    font-family: Lato, sans-serif;
+    position: relative;
+
+    &_list {
+        padding: 0 170px;
+        top: 32%;
+        position: absolute;
+    }
+ 
+    &_description {
+        color: var(--black);
+        font-size: 64px;
+        letter-spacing: 1.4px;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+    }
+
+    &_btn:hover {
+        background-color: var(--bold-gray);
+    }
+
+    &_btn {
+        background-color: var(--black);
+        color: var(--white);
+        cursor: pointer;
+        border: none;
+        outline: none;
+        display: flex;
+        padding: 16px 30px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-size: 18px;
+    }
+}

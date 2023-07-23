@@ -1,0 +1,55 @@
+.description-section {
+    padding: 0 170px;
+    margin-top: 100px;
+
+    &_important-decription {
+        color: var(--bold-gray);
+        text-align: center;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 46.92px;
+        letter-spacing: 0.68px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    &_img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &_slider-block {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    &_flex-helper {
+        display: flex;
+        padding: 0 70px;
+    }
+
+    &_girl-name {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.72px;
+        letter-spacing: 1.4px;
+        margin-top: 20px;
+        text-align: center;
+        margin-bottom: 100px;
+        text-transform: uppercase;
+    }
+
+    &_slider-btn {
+        border: none;
+        border-radius: 50%;
+        padding: 5px;
+        margin-right: 8px;
+        background-color: var(--blue);
+    }
+
+    &_slider-btn:hover {
+        background-color: var(--gray);
+    }
+}

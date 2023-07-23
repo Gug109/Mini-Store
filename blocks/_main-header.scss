@@ -1,0 +1,70 @@
+.main-header {
+    background-color: var(--white);
+    display: flex;
+    font-family: Lato, sans-serif;
+
+    &_main-title {
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    &_gray:hover {
+        color: var(--gray);
+    }
+
+    &_main-ul {
+        display: flex;
+        padding: 20px 170px;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    &_link {
+        color: var(--black);
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    &_link:hover {
+        color: var(--gray);
+    }
+
+    &_first-link {
+        color: var(--blue);
+    }
+
+    &_primary-img {
+        padding: 12px 0;
+    }
+
+    &_shop-btn {
+        font-size: 16px;
+        border: none;
+        background-color: inherit;
+        outline: none;
+    }
+
+    &_list {
+        margin-right: 44px;
+    }
+
+    &_search-icon {
+        margin-right: 19px;
+    }
+
+    &_men-icon {
+        margin-right: 13px;
+    }
+
+    &_ul {
+        display: flex;
+        position: absolute;
+        list-style: none;
+        padding: 0 170px;
+        right: 0;
+    }
+}
